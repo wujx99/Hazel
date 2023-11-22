@@ -33,4 +33,4 @@ namespace Hazel {
 #define HZ_FATAL(...)	::Hazel::Log::GetClientLogger()->fatal(__VA_ARGS__)
 
 
-// if distribute build 保证二进制文件不会包含上面的宏！
+// if distribute build 下面重写上面的宏保证对应二进制文件不会包含上面的宏！
