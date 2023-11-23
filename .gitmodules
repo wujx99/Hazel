@@ -1,6 +1,7 @@
 [submodule "Hazel/vendor/spdlog"]
 	path = Hazel/vendor/spdlog
 	url = git@github.com:gabime/spdlog.git
+
 [submodule "Hazel/vendor/GLFW"]
 	path = Hazel/vendor/GLFW
-	url = git@github.com:wujx99/glfw.git
+	url = git@github.com:TheCherno/glfw.git
