@@ -1,6 +1,6 @@
 # Directory
 .vs/
-bin/
+/bin/
 bin-int/
 
 # File
