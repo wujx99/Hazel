@@ -25,7 +25,7 @@ namespace Hazel {
 #define HZ_CORE_INFO(...)  ::Hazel::Log::GetCoreLogger()->info(__VA_ARGS__)
 #define HZ_CORE_WARN(...)  ::Hazel::Log::GetCoreLogger()->warn(__VA_ARGS__)
 #define HZ_CORE_ERROR(...)  ::Hazel::Log::GetCoreLogger()->error(__VA_ARGS__)
-#define HZ_CORE_FATAL(...)  ::Hazel::Log::GetCoreLogger()->fatal(__VA_ARGS__)
+#define HZ_CORE_CRITICAL(...)  ::Hazel::Log::GetCoreLogger()->critical(__VA_ARGS__)
 
 
 // Client log macros
@@ -33,7 +33,7 @@ namespace Hazel {
 #define HZ_INFO(...)	::Hazel::Log::GetClientLogger()->info(__VA_ARGS__)
 #define HZ_WARN(...)	::Hazel::Log::GetClientLogger()->warn(__VA_ARGS__)
 #define HZ_ERROR(...)	::Hazel::Log::GetClientLogger()->error(__VA_ARGS__)
-#define HZ_FATAL(...)	::Hazel::Log::GetClientLogger()->fatal(__VA_ARGS__)
+#define HZ_CRITICAL(...)	::Hazel::Log::GetClientLogger()->critical(__VA_ARGS__)
 
 
 // if distribute build 下面重写上面的宏保证对应二进制文件不会包含上面的宏！

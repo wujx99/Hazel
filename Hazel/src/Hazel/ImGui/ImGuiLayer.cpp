@@ -18,9 +18,6 @@ namespace Hazel {
 	{
 	}
 
-	ImGuiLayer::~ImGuiLayer()
-	{
-	}
 
 	void ImGuiLayer::OnAttach()
 	{
